@@ -24,9 +24,11 @@ namespace modulInheritance
 
             //No2
             //laptop1.Ngoding();
+            
+            ((Vivobook)laptop1).Ngoding();
 
             //No3
-            Console.WriteLine("Spesifikasi laptop1 >> merk vga: " + laptop1.vga + "merk processor: " + laptop1.processor);
+            Console.WriteLine($"Spesifikasi laptop1 >> merk vga: laptop1.vga merk processor: laptop1.processor);
 
             //No4
             predator.BermainGame();
